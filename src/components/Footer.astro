@@ -1,0 +1,11 @@
+---
+interface Props { lang?: 'pt' | 'en'; }
+const { lang = 'pt' } = Astro.props;
+const pt = lang === 'pt';
+---
+<footer class="border-t border-gold/15 bg-white/45">
+  <div class="mx-auto flex max-w-7xl flex-col gap-5 px-5 py-10 text-sm text-ink/65 md:flex-row md:items-end md:justify-between lg:px-8">
+    <div><p class="font-bold tracking-[.16em] text-wine">ORZHOV</p><p class="mt-2">António José Abreu e Silva · {pt ? 'Portefólio profissional' : 'Professional portfolio'}</p></div>
+    <p>{pt ? 'Conteúdo profissional confidencial — não indexado.' : 'Confidential professional content — not indexed.'}</p>
+  </div>
+</footer>

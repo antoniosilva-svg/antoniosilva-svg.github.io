@@ -1,0 +1,36 @@
+---
+interface Props { lang?: 'pt' | 'en'; }
+const { lang = 'pt' } = Astro.props;
+const pt = lang === 'pt';
+const root = pt ? '/' : '/en/';
+const labels = pt
+  ? { about: 'Sobre', experience: 'Percurso', projects: 'Projetos', library: 'Biblioteca', recruiter: 'Área RH', language: 'EN' }
+  : { about: 'About', experience: 'Experience', projects: 'Projects', library: 'Library', recruiter: 'Recruiter area', language: 'PT' };
+---
+<header class="sticky top-0 z-50 border-b border-[#b78a2d]/15 bg-[#f8f6f1]/90 backdrop-blur-xl">
+  <div class="mx-auto flex max-w-7xl items-center justify-between px-5 py-4 lg:px-8">
+    <a href={root} class="group flex items-center gap-3" aria-label="Orzhov portfolio home">
+      <span class="grid h-8 w-8 place-items-center rounded-full border border-gold text-sm font-bold text-wine transition group-hover:bg-wine group-hover:text-white">O</span>
+      <span class="text-xs font-bold tracking-[.2em] text-ink">ORZHOV</span>
+    </a>
+    <nav class="hidden items-center gap-6 text-sm text-ink/75 lg:flex" aria-label="Main navigation">
+      <a class="hover:text-wine" href={`${root}#sobre`}>{labels.about}</a>
+      <a class="hover:text-wine" href={`${root}#percurso`}>{labels.experience}</a>
+      <a class="hover:text-wine" href={`${root}#projetos`}>{labels.projects}</a>
+      <a class="hover:text-wine" href={`${root}biblioteca/`}>{labels.library}</a>
+      <a class="rounded-full border border-wine bg-wine px-4 py-2 text-xs font-bold text-white transition hover:bg-wine-dark" href={`${root}rh/`}>{labels.recruiter}</a>
+      <a class="text-xs font-bold tracking-widest text-wine hover:text-gold" href={pt ? '/en/' : '/'}>{labels.language}</a>
+    </nav>
+    <details class="relative lg:hidden">
+      <summary class="cursor-pointer list-none rounded-full border border-gold px-3 py-1.5 text-xs font-bold text-wine">Menu</summary>
+      <nav class="absolute right-0 mt-3 flex w-52 flex-col rounded-2xl border border-gold/20 bg-pearl p-3 shadow-xl" aria-label="Mobile navigation">
+        <a class="rounded-lg px-3 py-2 hover:bg-white" href={`${root}#sobre`}>{labels.about}</a>
+        <a class="rounded-lg px-3 py-2 hover:bg-white" href={`${root}#percurso`}>{labels.experience}</a>
+        <a class="rounded-lg px-3 py-2 hover:bg-white" href={`${root}#projetos`}>{labels.projects}</a>
+        <a class="rounded-lg px-3 py-2 hover:bg-white" href={`${root}biblioteca/`}>{labels.library}</a>
+        <a class="rounded-lg px-3 py-2 font-bold text-wine hover:bg-white" href={`${root}rh/`}>{labels.recruiter}</a>
+        <a class="rounded-lg px-3 py-2 text-xs font-bold text-wine hover:bg-white" href={pt ? '/en/' : '/'}>{labels.language}</a>
+      </nav>
+    </details>
+  </div>
+</header>

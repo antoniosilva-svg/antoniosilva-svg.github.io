@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", "Avenir Next", Avenir, ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Iowan Old Style", "Baskerville", Georgia, serif;
+  --color-pearl: #f8f6f1;
+  --color-ink: #211b1b;
+  --color-wine: #6d1f31;
+  --color-wine-dark: #4b1020;
+  --color-gold: #b78a2d;
+  --color-gold-light: #dfc27d;
+}
+
+html { scroll-behavior: smooth; }
+body { background: var(--color-pearl); color: var(--color-ink); }
+::selection { background: #6d1f31; color: #fff; }
+.eyebrow { letter-spacing: .18em; text-transform: uppercase; font-size: .72rem; font-weight: 700; color: var(--color-wine); }
+.display { font-family: var(--font-display); letter-spacing: -.04em; }
+.gold-rule { height: 1px; background: linear-gradient(90deg, transparent, #b78a2d, transparent); }
+.card { border: 1px solid rgba(107, 70, 32, .15); background: rgba(255,255,255,.56); box-shadow: 0 16px 40px rgba(55, 32, 25, .06); }
+.card:hover { border-color: rgba(183, 138, 45, .55); transform: translateY(-3px); box-shadow: 0 20px 44px rgba(55, 32, 25, .1); }
