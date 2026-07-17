@@ -16,10 +16,30 @@ export const profile = {
 export const strengths = [
   'Coordenação e desenvolvimento de equipas',
   'Planeamento operacional e gestão de processos',
+  'Gestão e acompanhamento de orçamentos de cinco dígitos',
+  'Entrega de resultados em contextos exigentes e sob pressão',
   'Intervenção social com crianças, jovens e populações vulneráveis',
   'Integração e acompanhamento de refugiados e migrantes',
   'Mediação, comunicação e gestão de conflitos',
   'Articulação institucional e trabalho multidisciplinar',
+];
+
+export const complementaryPath = [
+  {
+    period: '2016 - 2019',
+    title: 'Eventos, acolhimento e hospitalidade',
+    text: 'Receção de convidados e apoio à organização de eventos no Level Club, ligado à música eletrónica, e participação nas Festas do Bodo, em Pombal.',
+  },
+  {
+    period: '2014 - 2017',
+    title: 'Desporto, disciplina e desempenho',
+    text: 'Treinador de futebol nas camadas jovens e participante em competições de karting: experiências que reforçaram liderança, foco, preparação e tomada de decisão.',
+  },
+  {
+    period: 'Percurso pessoal',
+    title: 'Curiosidade e aprendizagem contínua',
+    text: 'Praticante de artes marciais desde criança, leitor assíduo e interessado em psicologia organizacional, finanças e formação contínua. Pai desde 2017.',
+  },
 ];
 
 export const featuredExperience = [
