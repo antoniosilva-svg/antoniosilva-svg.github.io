@@ -45,6 +45,35 @@ export const featuredExperience = [
   },
 ];
 
+// Cronologia consolidada a partir das versões de CV recebidas.
+// As experiências sem período confirmado são apresentadas acima, sem datas.
+export const careerTimeline = [
+  {
+    period: '2023 - presente',
+    role: 'Team Leader / Coordenação de Rampa',
+    organisation: 'Azul Handling · Fuerteventura',
+    text: 'Coordenação de equipas operacionais, planeamento de operações de rampa, segurança, eficiência e integração de novos colaboradores.',
+  },
+  {
+    period: '2011 - 2020',
+    role: 'Empresário / Gestor',
+    organisation: 'Negócio próprio',
+    text: 'Gestão integral de atividade própria, incluindo planeamento, atendimento, finanças, negociação e organização do trabalho.',
+  },
+  {
+    period: '2010 - 2011',
+    role: 'Educador Social',
+    organisation: 'Lar Santa Estefânea',
+    text: 'Acompanhamento de crianças e jovens, gestão de rotinas, desenvolvimento pessoal e social e trabalho com equipa multidisciplinar.',
+  },
+  {
+    period: '2007 - 2010',
+    role: 'Treinador de Futebol',
+    organisation: 'Clubes locais',
+    text: 'Desenvolvimento técnico e humano de equipas, com foco em disciplina, superação e espírito de grupo.',
+  },
+];
+
 // Não publicar até serem validados pelo António: existem versões divergentes nos CVs recebidos.
 export const reviewNeeded = [
   'Número de telefone: surgem dois números diferentes nas versões recebidas.',
