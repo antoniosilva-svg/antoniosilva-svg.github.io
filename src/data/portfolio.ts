@@ -45,38 +45,77 @@ export const featuredExperience = [
   },
 ];
 
-// Cronologia consolidada a partir das versões de CV recebidas.
-// As experiências sem período confirmado são apresentadas acima, sem datas.
+// Cronologia consolidada a partir de CVs e comprovativos recebidos.
+// Só inclui períodos que podem ser sustentados pela documentação disponível.
 export const careerTimeline = [
   {
-    period: '2023 - presente',
-    role: 'Team Leader / Coordenação de Rampa',
-    organisation: 'Azul Handling · Fuerteventura',
-    text: 'Coordenação de equipas operacionais, planeamento de operações de rampa, segurança, eficiência e integração de novos colaboradores.',
+    period: '2023 - 2026',
+    role: 'Operações aeroportuárias e coordenação de equipas',
+    organisation: 'Ryanair / Azul Handling · Fuerteventura',
+    text: 'Experiência contínua em contexto aeroportuário internacional, com coordenação operacional, segurança, eficiência e integração de colaboradores.',
   },
   {
-    period: '2011 - 2020',
-    role: 'Empresário / Gestor',
-    organisation: 'Negócio próprio',
-    text: 'Gestão integral de atividade própria, incluindo planeamento, atendimento, finanças, negociação e organização do trabalho.',
-  },
-  {
-    period: '2010 - 2011',
+    period: '2021 - 2022',
     role: 'Educador Social',
     organisation: 'Lar Santa Estefânea',
     text: 'Acompanhamento de crianças e jovens, gestão de rotinas, desenvolvimento pessoal e social e trabalho com equipa multidisciplinar.',
   },
   {
-    period: '2007 - 2010',
-    role: 'Treinador de Futebol',
-    organisation: 'Clubes locais',
-    text: 'Desenvolvimento técnico e humano de equipas, com foco em disciplina, superação e espírito de grupo.',
+    period: '2019 - 2020',
+    role: 'Assessor Técnico',
+    organisation: 'Câmara Municipal de Guimarães',
+    text: 'Acompanhamento dos projetos PMIMG e Guimarães Acolhe, apoio à integração de migrantes, articulação com entidades e desenvolvimento de respostas sociais.',
+  },
+  {
+    period: '2013 - 2020',
+    role: 'Empresário / Gestor',
+    organisation: 'Orzhov',
+    text: 'Gestão integral de atividade própria, incluindo planeamento, atendimento, finanças, negociação e organização do trabalho.',
+  },
+  {
+    period: '2011 - 2012',
+    role: 'Estágio em Psicologia Organizacional',
+    organisation: 'Médicos do Mundo · Porto',
+    text: 'Colaboração em contexto de intervenção social com populações vulneráveis e projetos comunitários.',
+  },
+];
+
+export const certifications = [
+  {
+    year: '2024',
+    title: 'Teleformação para Docentes',
+    detail: '50 horas · Formação profissional em Espanha',
+  },
+  {
+    year: '2023',
+    title: 'Gestão de Segurança Informática na Empresa',
+    detail: '100 horas · Formação profissional em Espanha',
+  },
+  {
+    year: '2023',
+    title: 'Gestão de Bar-Cafetaria',
+    detail: '60 horas · Formação profissional em Espanha',
+  },
+  {
+    year: '2023',
+    title: 'Contabilidade e Nominaplus',
+    detail: '75 horas · Formação profissional em Espanha',
+  },
+  {
+    year: '2015',
+    title: 'Marketing',
+    detail: '175 horas · IEFP, Centro de Emprego e Formação Profissional de Braga',
+  },
+  {
+    year: '2004',
+    title: 'Ideias de Europa: Que Fronteiras?',
+    detail: 'Curso intensivo · Universidade de Coimbra',
   },
 ];
 
 // Não publicar até serem validados pelo António: existem versões divergentes nos CVs recebidos.
 export const reviewNeeded = [
   'Número de telefone: surgem dois números diferentes nas versões recebidas.',
-  'Formação académica: há referências diferentes à instituição da licenciatura e à designação da formação em Psicologia.',
-  'Datas e designações exatas de cada experiência profissional.',
+  'Formação académica: confirmar se pretende indicar o mestrado em Psicologia como frequência ou percurso não concluído.',
+  'Datas e designações de experiências profissionais ainda sem comprovativos.',
 ];
