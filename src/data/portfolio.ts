@@ -33,7 +33,7 @@ export const complementaryPath = [
   {
     period: '2014 - 2017',
     title: 'Desporto, disciplina e desempenho',
-    text: 'Treinador de futebol nas camadas jovens e participante em competições de karting: experiências que reforçaram liderança, foco, preparação e tomada de decisão.',
+    text: 'Treinador de futebol nas camadas jovens e piloto de karting: experiências que reforçaram liderança, foco, preparação e tomada de decisão.',
   },
   {
     period: 'Percurso pessoal',
