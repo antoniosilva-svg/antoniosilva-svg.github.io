@@ -102,6 +102,16 @@ export const careerTimeline = [
 
 export const certifications = [
   {
+    year: '2010',
+    title: 'Licenciatura em História',
+    detail: 'Universidade de Coimbra · Formação académica concluída',
+  },
+  {
+    year: '2010 - 2012',
+    title: 'Psicologia do Trabalho e das Organizações',
+    detail: 'Frequência de Mestrado · Universidade Católica Portuguesa',
+  },
+  {
     year: '2024',
     title: 'Teleformação para Docentes',
     detail: '50 horas · Formação profissional em Espanha',
@@ -126,16 +136,4 @@ export const certifications = [
     title: 'Marketing',
     detail: '175 horas · IEFP, Centro de Emprego e Formação Profissional de Braga',
   },
-  {
-    year: '2004',
-    title: 'Ideias de Europa: Que Fronteiras?',
-    detail: 'Curso intensivo · Universidade de Coimbra',
-  },
-];
-
-// Não publicar até serem validados pelo António: existem versões divergentes nos CVs recebidos.
-export const reviewNeeded = [
-  'Número de telefone: surgem dois números diferentes nas versões recebidas.',
-  'Formação académica: confirmar se pretende indicar o mestrado em Psicologia como frequência ou percurso não concluído.',
-  'Datas e designações de experiências profissionais ainda sem comprovativos.',
 ];
