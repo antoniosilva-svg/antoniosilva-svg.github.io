@@ -46,7 +46,7 @@ export const featuredExperience = [
   {
     area: 'Operações e equipas',
     title: 'Coordenação operacional em contexto aeroportuário',
-    text: 'Experiência de coordenação, segurança, eficiência operacional e acompanhamento de equipas em ambiente aeroportuário internacional.',
+    text: 'Articulação de 15 a 25 profissionais por escala e acompanhamento de até 6 a 7 voos por turno, em ambiente aeroportuário internacional e multicultural.',
   },
   {
     area: 'Intervenção social',
@@ -56,7 +56,7 @@ export const featuredExperience = [
   {
     area: 'Acompanhamento institucional',
     title: 'Lar Santa Estefânea',
-    text: 'Acompanhamento diário de crianças e jovens, desenvolvimento pessoal e social, gestão de rotinas e trabalho em equipa multidisciplinar.',
+    text: 'Acompanhamento diário de mais de 30 crianças e jovens, desenvolvimento pessoal e social, gestão de rotinas e trabalho em equipa multidisciplinar.',
   },
   {
     area: 'Trabalho comunitário',
@@ -72,25 +72,25 @@ export const careerTimeline = [
     period: '2023 - 2026',
     role: 'Operações aeroportuárias e coordenação de equipas',
     organisation: 'Ryanair / Azul Handling · Fuerteventura',
-    text: 'Experiência contínua em contexto aeroportuário internacional, com coordenação operacional, segurança, eficiência e integração de colaboradores.',
+    text: 'Articulação de 15 a 25 profissionais por escala e acompanhamento de até 6 a 7 voos por turno, com segurança, eficiência e resolução de imprevistos em janelas de cerca de 35 minutos.',
   },
   {
     period: '2021 - 2022',
     role: 'Educador Social',
     organisation: 'Lar Santa Estefânea',
-    text: 'Acompanhamento de crianças e jovens, gestão de rotinas, desenvolvimento pessoal e social e trabalho com equipa multidisciplinar.',
+    text: 'Acompanhamento diário de mais de 30 crianças e jovens, gestão de rotinas, desenvolvimento pessoal e social e trabalho com equipa multidisciplinar.',
   },
   {
     period: '2019 - 2020',
     role: 'Assessor Técnico',
     organisation: 'Câmara Municipal de Guimarães',
-    text: 'Acompanhamento dos projetos PMIMG e Guimarães Acolhe, apoio à integração de migrantes, articulação com entidades e desenvolvimento de respostas sociais.',
+    text: 'Acompanhamento dos projetos PMIMG e Guimarães Acolhe, apoio à integração de migrantes e articulação com departamentos, associações e instituições, incluindo trabalho de terreno.',
   },
   {
     period: '2013 - 2020',
     role: 'Empresário / Gestor',
     organisation: 'Orzhov',
-    text: 'Gestão integral de atividade própria, incluindo planeamento, atendimento, finanças, negociação e organização do trabalho.',
+    text: 'Gestão integral de atividade própria, incluindo planeamento, atendimento, finanças, negociação e organização do trabalho, com gestão financeira anual acima de 50 000 €.',
   },
   {
     period: '2011 - 2012',
